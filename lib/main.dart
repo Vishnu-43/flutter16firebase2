@@ -1,7 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter16firebase2/EmailValidation/loginform.dart';
 import 'package:flutter16firebase2/ImagePicker/image_picker.dart';
+import 'package:flutter16firebase2/ImagePicker/multipleimage_upload.dart';
 
 
 // import 'PhoneNumber/home.dart';
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-         home: PermissionHandler(),
+         home: LoginForm(),
         );
   }
 }
