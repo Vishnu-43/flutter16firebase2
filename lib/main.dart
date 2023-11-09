@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter16firebase2/EmailValidation/loginform.dart';
 import 'package:flutter16firebase2/ImagePicker/image_picker.dart';
 import 'package:flutter16firebase2/ImagePicker/multipleimage_upload.dart';
+import 'package:flutter16firebase2/Payment/upi_payment_screen.dart';
+
+import 'PhoneNumber/phonenumber_page.dart';
 
 
 // import 'PhoneNumber/home.dart';
@@ -22,7 +25,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-         home: LoginForm(),
+         home: UpiPayment(),
         );
   }
 }
